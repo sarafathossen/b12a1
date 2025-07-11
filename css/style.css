@@ -45,6 +45,42 @@
     border-radius: 20px;
 }
 
+
+
+
+/* Productive User */
+.productive-user{
+    background: #E5E7FF;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.productive-user h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 32px;
+}
+.active-user{
+    display: flex;
+    justify-content:center;
+    
+}
+.au-part{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+.au-part h3{
+    font-size: 50px;
+    color: #4E47FF;
+    margin: 0;
+}
+.au-part p{
+
+}
+
 /*Shaired Style*/
 .primary-btn{
     color: white;

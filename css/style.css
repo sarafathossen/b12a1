@@ -80,6 +80,9 @@
 .au-part p{
 
 }
+.star{
+    padding-bottom: 10px;
+}
 
 
 
@@ -110,7 +113,11 @@
     gap: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:flex-start;
+
+}
+.un-part p{
+    margin-top: -20px;
 }
 .users h4{
     font-size: 22px;
@@ -125,6 +132,44 @@
 }
 
 
+
+
+
+
+
+/* Ready to Focus Section*/
+
+.focus{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.redy-to-focus{
+    text-align: center;
+}
+.redy-to-focus img{
+    border-radius: 20px;
+    
+}
+.focus h2{
+    font-size: 32PX;
+}
+.focus p{
+    
+}
+.focus button{
+    margin-bottom: 20px;
+}
+.another{
+    
+}
+.redy-to-focus{
+    padding: 50PX;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: white;
+}
 /*Shaired Style*/
 .primary-btn{
     color: white;

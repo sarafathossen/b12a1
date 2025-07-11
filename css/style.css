@@ -87,6 +87,10 @@
 
 
 /* User Say Part*/
+.active-user{
+    margin-top: -40px;
+    padding-bottom: 30px;
+}
 .user-flex{
     display: flex;
     padding-left: 100px;
@@ -95,12 +99,13 @@
 }
 .user-name{
     display: flex;
+    align-items: center;
     
 }
 .user-name img{
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 .users{
     width: 400px;
@@ -114,6 +119,7 @@
     display: flex;
     flex-direction: column;
     align-items:flex-start;
+    padding: 10px;
 
 }
 .un-part p{
@@ -131,7 +137,9 @@
     padding-bottom: 15px;
 }
 
-
+.au-part p{
+    margin-top: -2px;
+}
 
 
 
@@ -169,6 +177,7 @@
     margin-left: 100px;
     margin-right: 100px;
     background: white;
+    border-radius: 20px;
 }
 
 
@@ -183,10 +192,12 @@
     padding-right: 200px;
     align-items: center;
     margin-top: 30px;
+    padding-bottom: 60px;
 }
 .touch h2{
     font-size: 50px;
     padding: 50px;
+    
 }
 .input{
     text-align: left;
@@ -216,6 +227,30 @@ textarea{
     border: none;
 }
 
+
+/* Footer Section */
+
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    color: black;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 100px;
+    background: white;
+}
+.footer-logo{
+    color: #4E47FF;
+    font-size: 65px;
+}
+
 /*Shaired Style*/
 .primary-btn{
     color: white;
@@ -225,6 +260,11 @@ textarea{
     font-size: 20px;
     padding: 10px 10px;
     border: none;
+}
+.primary-btn:hover{
+    background: black;
+    color: rgb(245, 241, 20);
+    transition: 2s;
 }
 main{
     background: #F5F8FF;

@@ -170,6 +170,52 @@
     margin-right: 100px;
     background: white;
 }
+
+
+/* Get In Touch Section */
+
+.get-intouch{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    margin-top: 30px;
+}
+.touch h2{
+    font-size: 50px;
+    padding: 50px;
+}
+.input{
+    text-align: left;
+}
+input{
+    height: 30px;
+    width: 350px;
+    padding: 10px;
+    margin-top: -20px;
+    border: none;
+}
+legend{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+.getbutton{
+    height: 30px;
+    width: 370px;
+    margin-top: 15px;
+    
+}
+textarea{
+    height: 50px;
+    width: 330px;
+    padding: 20px;
+    border: none;
+}
+
 /*Shaired Style*/
 .primary-btn{
     color: white;
